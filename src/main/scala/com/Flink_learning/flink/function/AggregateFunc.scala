@@ -10,7 +10,7 @@ import org.apache.flink.util.Collector
 import scala.collection.mutable
 
 /**
-  * Created by luojiangyu on 3/18/18.
+  * Created by liulebin on 3/18/18.
   */
 class AggregateFunc extends WindowFunction[ComputeResult, ComputeResult, Tuple, TimeWindow]{
   override def apply(key: Tuple, window: TimeWindow, input: Iterable[ComputeResult], out: Collector[ComputeResult]): Unit = {

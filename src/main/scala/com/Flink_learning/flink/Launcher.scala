@@ -83,10 +83,7 @@ object Launcher {
       .window(SlidingEventTimeWindows.of(Time.minutes(60), Time.minutes(1)))
       .apply(new AggregateFunc())
       .addSink(producer)
-
     env.execute("log_compute")
-
-
   }
 
 }

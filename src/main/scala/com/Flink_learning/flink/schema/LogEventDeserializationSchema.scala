@@ -7,7 +7,7 @@ import org.json4s.DefaultFormats
 import org.json4s.native.JsonMethods._
 
 /**
-  * Created by luojiangyu on 3/6/18.
+  * Created by liulebin on 3/6/18.
   */
 class LogEventDeserializationSchema  extends KeyedDeserializationSchema[LogEvent]{
   override def isEndOfStream(t: LogEvent): Boolean = false

@@ -3,7 +3,7 @@ package com.Flink_learning.flink.util
 import com.roundeights.hasher.Algo
 
 /**
-  * Created by luojiangyu on 3/18/18.
+  * Created by liulebin on 3/18/18.
   */
 object KeyUtil {
 

@@ -12,7 +12,7 @@ import scala.collection.mutable
 import scala.collection.mutable.ArrayBuffer
 
 /**
-  * Created by luojiangyu on 3/18/18.
+  * Created by liulebin on 3/18/18.
   */
 class ApplyComputeRule extends CoFlatMapFunction[LogEvent, ComputeConf, ComputeResult]{
 
